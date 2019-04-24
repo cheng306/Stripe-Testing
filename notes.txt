@@ -1,0 +1,7 @@
+https://stripe.com/docs/sources/cards
+Card information is sensitive by nature. Card sources must be created client-side using Stripe.js and Elements. This ensures that no sensitive card data passes through your server so your integration can operate in a PCI compliant way.
+
+
+scenarios to investigate
+-decline payment
+-invalid card  µ≤m≤≥

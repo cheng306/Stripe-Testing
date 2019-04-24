@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <script src="https://js.stripe.com/v3/"></script>
+      
+  </head>
+
+  <body>
+      <form action="http://localhost:3000/charge" method="post" id="payment-form">
+        Money:<br>
+        <input type="number" name="money">
+        
+   
+      
+        <button>charge me</button>
+      </form>
+
+
+      <script src="./stripe-source.js"></script>
+      <link rel="stylesheet" type="text/css" href="./stripe.css">
+  </body>
+</html>
