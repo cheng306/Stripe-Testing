@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const {stripeKey, port } = require('./config');
-const stripe = require("stripe")("stripeKey");
+const stripe = require("stripe")(stripeKey);
 const bodyParser = require('body-parser');
 
 app.use(bodyParser.urlencoded({ extended: true }));
